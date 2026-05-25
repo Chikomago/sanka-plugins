@@ -1,0 +1,24 @@
+[
+  {
+    "id": "com.chikomago.example-plugin",
+    "name": "示例插件",
+    "description": "这是一个用于展示的示例插件，帮助您了解 Sanka 插件的基本结构和工作原理。",
+    "category": "开发工具",
+    "version": "1.0.0",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "uploadedAt": "2026-05-25T00:00:00Z",
+        "changelog": "首次发布"
+      }
+    ],
+    "platforms": ["macos", "windows"],
+    "is_encrypted": false,
+    "download_url": "https://github.com/Chikomago/sanka-plugins/releases/download/v1.0.0/example-plugin.zip",
+    "runtime": ["python"],
+    "python_version": ">=3.10",
+    "author": "Chikomago",
+    "readme": "# 示例插件\n这是示例插件的说明文档。支持 Markdown 渲染！\n\n## 功能特性\n- 快速示例\n- 便于学习",
+    "entry": "main.py"
+  }
+]
