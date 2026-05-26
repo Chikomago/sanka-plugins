@@ -39,7 +39,7 @@
     "download_url": "https://github.com/Chikomago/DDAS/releases/latest/download/ddas-plugin.zip",
     "runtime": ["python"],
     "python_version": ">=3.10",
-    "author": "Chikomago",
+    "author": "Plumrain‌",
     "readme": "# DDAS 脚本插件\n此插件用于深绘自动化配置。",
     "entry": "main.py"
   }
