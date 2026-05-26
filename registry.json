@@ -20,5 +20,27 @@
     "author": "Chikomago",
     "readme": "# 示例插件\n这是示例插件的说明文档。支持 Markdown 渲染！\n\n## 功能特性\n- 快速示例\n- 便于学习",
     "entry": "main.py"
+  },
+  {
+    "id": "com.chikomago.ddas",
+    "name": "DDAS 脚本",
+    "description": "基于 Python 编写的 DDAS 自动化数据处理工具。",
+    "category": "数据处理",
+    "version": "1.0.0",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "uploadedAt": "2026-05-26T00:00:00Z",
+        "changelog": "首次发布 DDAS 插件"
+      }
+    ],
+    "platforms": ["macos", "windows"],
+    "is_encrypted": false,
+    "download_url": "https://github.com/Chikomago/DDAS/releases/download/v1.0.0/ddas-plugin.zip",
+    "runtime": ["python"],
+    "python_version": ">=3.10",
+    "author": "Chikomago",
+    "readme": "# DDAS 脚本插件\n此插件用于自动处理 DDAS 相关数据。\n\n## 注意事项\n- 请在运行前准备好必要的配置文件。",
+    "entry": "main.py"
   }
 ]
