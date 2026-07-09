@@ -79,5 +79,32 @@
     "author": "梅雨",
     "readme": "# 字体编辑器\n\n一个用于 Sanka 的字体处理插件，可拆分可变字体，并编辑字体名称、版本、字重等信息。\n\n## 功能\n\n- 修改字体基础信息和名称表\n- 清理可变字体相关表\n- 按字重拆分可变字体实例\n- 支持 macOS 和 Windows\n\n## 运行环境\n\n- Python 3.10 或更高版本\n- 依赖见 `requirements.txt`\n\n## 使用\n\n在 Sanka 中安装插件后运行，按界面提示选择字体文件并执行修改或拆分操作。",
     "entry": "split_variable_font.py"
+  },
+  {
+    "id": "pim_autoscript",
+    "name": "PIM 自动脚本",
+    "description": "用于 PIM CAS 的配置生成与页面自动化填写工具",
+    "category": "效率工具",
+    "version": "1.1.1",
+    "versions": [
+      {
+        "version": "1.1.1",
+        "uploadedAt": "2026-07-09T10:35:37Z",
+        "changelog": "首次发布 Sanka 插件版本"
+      }
+    ],
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "is_encrypted": false,
+    "download_url": "https://github.com/Chikomago/pim_autoscript/releases/latest/download/pim-autoscript-plugin.zip",
+    "runtime": [
+      "python"
+    ],
+    "python_version": ">=3.10",
+    "author": "梅雨",
+    "readme": "# PIM 自动脚本\n\n用于 Sanka 的 PIM CAS 自动化插件，可生成配置文件，并通过浏览器自动完成页面字段填写、图片上传等重复操作。\n\n## 功能\n\n- 生成 PIM 配置文件\n- 自动填写 PC 与移动端字段值\n- 自动上传 PC 与移动端图片\n- 支持配置预设模块\n- 可设置 Chrome 浏览器路径和默认像素大小\n\n## 运行环境\n\n- Python 3.10 或更高版本\n- Chrome 浏览器\n- 依赖见 `requirements.txt`\n\n## 使用\n\n在 Sanka 中安装插件后运行，先在设置中确认 Chrome 浏览器路径，再选择配置文件并按界面提示启动任务。",
+    "entry": "pim_script.py"
   }
 ]
