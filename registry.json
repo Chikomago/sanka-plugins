@@ -12,10 +12,15 @@
         "changelog": "首次发布"
       }
     ],
-    "platforms": ["macos", "windows"],
+    "platforms": [
+      "macos",
+      "windows"
+    ],
     "is_encrypted": false,
     "download_url": "https://github.com/Chikomago/sanka-plugins/releases/download/v1.0.0/example-plugin.zip",
-    "runtime": ["python"],
+    "runtime": [
+      "python"
+    ],
     "python_version": ">=3.10",
     "author": "Chikomago",
     "readme": "# 示例插件\n这是示例插件的说明文档。支持 Markdown 渲染！\n\n## 功能特性\n- 快速示例\n- 便于学习",
@@ -34,13 +39,45 @@
         "changelog": "脚本插件化的初始版本"
       }
     ],
-    "platforms": ["macos", "windows"],
+    "platforms": [
+      "macos",
+      "windows"
+    ],
     "is_encrypted": false,
     "download_url": "https://github.com/Chikomago/DDAS/releases/latest/download/ddas-plugin.zip",
-    "runtime": ["python"],
+    "runtime": [
+      "python"
+    ],
     "python_version": ">=3.10",
     "author": "Plumrain‌",
     "readme": "# DDAS 脚本插件\n此插件用于深绘自动化配置。",
     "entry": "main.py"
+  },
+  {
+    "id": "fonttool",
+    "name": "字体编辑器",
+    "description": "可拆分一切字体，编辑字体信息",
+    "category": "效率工具",
+    "version": "1.0.0",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "uploadedAt": "2026-07-09T08:37:38Z",
+        "changelog": "首次发布 Sanka 插件版本"
+      }
+    ],
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "is_encrypted": false,
+    "download_url": "https://github.com/Chikomago/fonttool/releases/latest/download/fonttool-plugin.zip",
+    "runtime": [
+      "python"
+    ],
+    "python_version": ">=3.10",
+    "author": "梅雨",
+    "readme": "# 字体编辑器\n\n一个用于 Sanka 的字体处理插件，可拆分可变字体，并编辑字体名称、版本、字重等信息。\n\n## 功能\n\n- 修改字体基础信息和名称表\n- 清理可变字体相关表\n- 按字重拆分可变字体实例\n- 支持 macOS 和 Windows\n\n## 运行环境\n\n- Python 3.10 或更高版本\n- 依赖见 `requirements.txt`\n\n## 使用\n\n在 Sanka 中安装插件后运行，按界面提示选择字体文件并执行修改或拆分操作。",
+    "entry": "split_variable_font.py"
   }
 ]
