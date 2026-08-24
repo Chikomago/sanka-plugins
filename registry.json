@@ -112,8 +112,13 @@
     "name": "DDAS PLUS",
     "description": "整合深绘与 PIM CAS 自动化，共用配置编辑、日志、浏览器和任务管理能力。",
     "category": "效率工具",
-    "version": "1.3.9",
+    "version": "1.3.10",
     "versions": [
+      {
+        "version": "1.3.10",
+        "uploadedAt": "2026-08-24T11:23:18Z",
+        "changelog": "新增 Intel Mac 构建，并将 Apple Silicon 构建迁移到 macOS 15。"
+      },
       {
         "version": "1.3.9",
         "uploadedAt": "2026-08-24T11:18:54Z",
