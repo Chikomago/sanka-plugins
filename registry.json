@@ -106,5 +106,32 @@
     "author": "梅雨",
     "readme": "# PIM 自动脚本\n\n用于 Sanka 的 PIM CAS 自动化插件，可生成配置文件，并通过浏览器自动完成页面字段填写、图片上传等重复操作。\n\n## 功能\n\n- 生成 PIM 配置文件\n- 自动填写 PC 与移动端字段值\n- 自动上传 PC 与移动端图片\n- 支持配置预设模块\n- 可设置 Chrome 浏览器路径和默认像素大小\n\n## 运行环境\n\n- Python 3.10 或更高版本\n- Chrome 浏览器\n- 依赖见 `requirements.txt`\n\n## 使用\n\n在 Sanka 中安装插件后运行，先在设置中确认 Chrome 浏览器路径，再选择配置文件并按界面提示启动任务。",
     "entry": "pim_script.py"
+  },
+  {
+    "id": "ddas-plus",
+    "name": "DDAS PLUS",
+    "description": "整合深绘与 PIM CAS 自动化，共用配置编辑、日志、浏览器和任务管理能力。",
+    "category": "效率工具",
+    "version": "1.3.8",
+    "versions": [
+      {
+        "version": "1.3.8",
+        "uploadedAt": "2026-08-24T11:11:38Z",
+        "changelog": "首次发布 DDAS PLUS 整合版，统一深绘与 PIM 界面、设置、日志、配置编辑和任务流程。"
+      }
+    ],
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "is_encrypted": false,
+    "download_url": "https://github.com/Chikomago/ddas-plus/releases/latest/download/ddas-plus-plugin.zip",
+    "runtime": [
+      "python"
+    ],
+    "python_version": ">=3.10,<3.13",
+    "author": "梅雨",
+    "readme": "# DDAS PLUS\n\n将深绘批量字段配置与 PIM CAS 自动化整合到同一个桌面工具。\n\n## 功能\n\n- 深绘动态字段配置、选项值填充和图片上传\n- PIM 配置生成、PC/移动端字段填写和图片上传\n- 共用配置数据编辑器与前后缀处理\n- 共用 Chrome 设置、任务管理、结果导出和统一日志\n- 支持 macOS 和 Windows\n\n## 运行环境\n\n- Python 3.10–3.12\n- Chrome 浏览器\n\n## 使用\n\n安装后先在设置中确认 Chrome 路径，然后在首页选择深绘或 PIM 开始任务。",
+    "entry": "main.py"
   }
 ]
